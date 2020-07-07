@@ -254,8 +254,8 @@ h1::after
 	padding: 4px;
 	border-radius: 50%;
 }
-.img-box ul{
-	padding: 15px 0;
+.img-boxx ul{
+	padding: 25px 0;
 	 position:absolute;
 	 z-index:2;
 	 bottom: 0;
@@ -263,18 +263,18 @@ h1::after
 	 transform: translateX(-50%)
 	 opacity:0;
 }
-.img-box ul li
+.img-boxx ul li
 {
-	padding:5px;
+	padding:25px;
 	display:inline-block;
 }
 	
 }
-.img-box:hover ul
+.img-boxx:hover ul
 {
 	opacity: 1;
 }
-img-box ul, .img-box ul li
+img-boxx ul, .img-boxx ul li
 {
 	transition: 0.5s;
 }
@@ -463,7 +463,7 @@ input:checked + .slider:before {
 
         #content {
             float: none;
-            width: 100%;
+            width: 30%;
         }
 
         #navigation {
